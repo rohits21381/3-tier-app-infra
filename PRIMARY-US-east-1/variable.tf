@@ -1,7 +1,7 @@
 variable "rds-password" {
     description = "rds password"
     type = string
-    default = "srivardhan"
+    default = "rohit"
   
 }
 variable "rds-username" {
@@ -13,7 +13,7 @@ variable "rds-username" {
 variable "ami" {
     description = "ami"
     type = string
-    default = "ami-04b70fa74e45c3917"
+    default = "ami-0c614dee691cbbf37"
   
 }
 variable "instance-type" {
@@ -25,7 +25,7 @@ variable "instance-type" {
 variable "key-name" {
     description = "keyname"
     type = string
-    default = "us-east-1"
+    default = "keypair"
   
 }
 variable "backupr-retention" {
