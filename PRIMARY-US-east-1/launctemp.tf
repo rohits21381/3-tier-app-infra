@@ -4,7 +4,7 @@ data "aws_ami" "example" {
 
   filter {
     name   = "name"
-    values = ["frontend-ami"] # Use your AMI name pattern
+    values = ["frontend"] # Use your AMI name pattern
   }
 }
 
@@ -34,7 +34,7 @@ data "aws_ami" "example1" {
 
   filter {
     name   = "name"
-    values = ["backend-ami"] # Use your AMI name pattern
+    values = ["backend"] # Use your AMI name pattern
   }
 }
 
